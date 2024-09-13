@@ -193,7 +193,6 @@ button
     overflow: clip;
     flex-direction: column;
 
-    min-width: 375px;
     min-height: 100%;
 
     background: var(--bg);

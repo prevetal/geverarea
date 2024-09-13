@@ -1,0 +1,129 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item .head .title
+    {
+        font-size: calc(18px + .81vw);
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .cols .col
+    {
+        width: 100%;
+    }
+
+
+
+    /*---------------
+        Feedback3
+    ---------------*/
+    .feedback3
+    {
+        padding-top: 80px;
+    }
+
+
+    .feedback3 .cont
+    {
+        padding: 0;
+    }
+
+
+    .feedback3 .logo img
+    {
+        height: 68px;
+    }
+
+
+
+    /*---------------
+        Feedback2
+    ---------------*/
+    .feedback2 .logo
+    {
+        width: 300px;
+        height: 300px;
+        padding: 40px;
+    }
+
+
+    .feedback2 .data
+    {
+        padding: 40px 24px 24px;
+    }
+
+
+    .feedback2 .form .submit_btn,
+    .feedback2 .medical_link
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .row
+    {
+        margin-bottom: -24px;
+    }
+
+
+    .articles .row > *
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .articles .article
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .articles .article .data
+    {
+        order: 2;
+
+        width: 100%;
+    }
+
+
+    .articles .article .thumb
+    {
+        position: relative;
+
+        height: auto;
+        padding-bottom: 125%;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .item .icon img
+    {
+        width: 108px;
+    }
+
+
+    .contacts_info .map
+    {
+        height: 260px;
+    }
+}

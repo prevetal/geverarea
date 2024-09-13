@@ -1,0 +1,346 @@
+@media print,
+(max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 24px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item .head
+    {
+        padding: 27px 27px 27px 79px;
+    }
+
+
+    .accordion_item .head:before
+    {
+        left: 27px;
+    }
+
+
+    .accordion_item .data
+    {
+        padding: 27px 27px 27px 79px;
+    }
+
+
+
+    /*--------------
+        Button up
+    --------------*/
+    .buttonUp
+    {
+        top: 0;
+        right: 0;
+        left: 0;
+
+        width: 45px;
+        margin: 0 auto;
+    }
+
+
+    .buttonUp .btn img
+    {
+        width: 45px;
+        height: 75px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        display: none;
+    }
+
+
+
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header
+    {
+        display: block;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block h2
+    {
+        font-size: 1.3em;
+    }
+
+
+
+    /*-------------------
+        Page head img
+    -------------------*/
+    .page_head_img
+    {
+        height: 300px;
+    }
+
+
+
+    /*-------------------
+        Fixed buttons
+    -------------------*/
+    .fixed_btns
+    {
+        display: none;
+    }
+
+
+    /*------------------------
+        Mob. fixed buttons
+    ------------------------*/
+    .mob_fixed_btns
+    {
+        display: flex;
+    }
+
+
+
+    /*-------------
+        Persons
+    -------------*/
+    .persons .person .photo
+    {
+        width: 280px;
+        height: 280px;
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback
+    {
+        padding: 40px 0;
+    }
+
+
+    .feedback .form
+    {
+        width: 100%;
+        margin-top: 24px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .data
+    {
+        width: 100%;
+    }
+
+
+    .about_info .video
+    {
+        width: 100%;
+        margin-top: 48px;
+    }
+
+
+    .about_info .video iframe
+    {
+        height: 480px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages
+    {
+        padding: 68px 0;
+    }
+
+
+    .advantages .item .icon
+    {
+        width: 124px;
+        height: 124px;
+        padding: 28px;
+    }
+
+
+
+    /*-----------------------
+        Small info slider
+    -----------------------*/
+    .small_info_slider .swiper
+    {
+        width: 100%;
+    }
+
+
+    .small_info_slider .bg
+    {
+        display: none;
+    }
+
+
+
+    /*-----------------
+        Video block
+    -----------------*/
+    .video_block .video
+    {
+        padding: 0 68px 68px;
+    }
+
+
+    .video_block .video:before
+    {
+        height: 300px;
+
+        border-radius: 0 0 120px 120px;
+    }
+
+
+    .video_block .video iframe
+    {
+        height: 360px;
+    }
+
+
+
+    /*---------------
+        Feedback2
+    ---------------*/
+    .feedback2 .logo
+    {
+        margin: 0 auto -24px;
+    }
+
+
+    .feedback2 .data
+    {
+        width: 100%;
+        padding: 40px;
+
+        border-radius: 20px;
+    }
+
+
+    .feedback2 .form .submit_btn,
+    .feedback2 .medical_link
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .row
+    {
+        margin-left: 0;
+    }
+
+
+    .articles .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .articles .article .data
+    {
+        width: 60%;
+        padding: 24px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data > *
+    {
+        width: calc(50% - 40px);
+    }
+
+
+    .contacts_info .item .icon img
+    {
+        width: 124px;
+    }
+
+
+    .contacts_info .feedback,
+    .contacts_info .map
+    {
+        width: 100%;
+    }
+
+
+    .contacts_info .map
+    {
+        margin-top: 48px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding-top: 100px;
+        padding-bottom: 60px;
+    }
+
+
+    footer .links
+    {
+        width: 100%;
+    }
+
+
+    footer .links.big,
+    footer .contacts
+    {
+        width: 100%;
+        margin-top: 48px;
+    }
+
+
+    footer .links .items.row
+    {
+        margin-left: 0;
+    }
+
+
+    footer .links .items.row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+}

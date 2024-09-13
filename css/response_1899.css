@@ -1,0 +1,84 @@
+@media print,
+(max-width: 1899px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo
+    {
+        left: 140px;
+    }
+
+
+    header .phone
+    {
+        margin-right: 24px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .video
+    {
+        width: 50%;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .row > *
+    {
+        width: calc(50% - 40px);
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .article .data
+    {
+        width: 60%;
+        padding: 32px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .links.big
+    {
+        width: calc(100% - 767px);
+    }
+
+
+    footer .links .items.row
+    {
+        margin-left: -24px;
+    }
+
+
+    footer .links .items.row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-left: 24px;
+    }
+
+
+
+    footer .contacts
+    {
+        width: 272px;
+    }
+}

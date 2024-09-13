@@ -1,0 +1,274 @@
+@media print,
+(max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .block
+    {
+        margin-bottom: 60px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 20px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item .head
+    {
+        padding: 23px 23px 23px 51px;
+    }
+
+
+    .accordion_item .head:before
+    {
+        left: 11px;
+    }
+
+
+    .accordion_item .data
+    {
+        padding: 23px;
+    }
+
+
+
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header .logo img
+    {
+        height: 100px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns > *
+    {
+        width: calc(100% - var(--form_columns_offset));
+    }
+
+
+    .form .input
+    {
+        font-size: 18px;
+    }
+
+
+    .form textarea
+    {
+        font-size: 18px;
+
+        padding-left: 19px;
+    }
+
+
+    .form .submit_btn
+    {
+        font-size: 20px;
+
+        padding: 10px;
+    }
+
+
+
+    /*-------------------
+        Page head img
+    -------------------*/
+    .page_head_img
+    {
+        height: 250px;
+    }
+
+
+    .page_head_img:before
+    {
+        height: 20px;
+    }
+
+
+
+    /*---------------
+        Feedback3
+    ---------------*/
+    .feedback3 .data
+    {
+        padding: 24px;
+    }
+
+
+    .feedback3 .logo img
+    {
+        height: 80px;
+    }
+
+
+
+    /*-------------
+        Persons
+    -------------*/
+    .persons.current_person
+    {
+        display: none;
+    }
+
+
+    .persons .swiper
+    {
+        padding-top: 20px;
+    }
+
+
+
+    /*---------------
+        Feedback2
+    ---------------*/
+    .feedback2 .logo
+    {
+        width: 360px;
+        height: 360px;
+    }
+
+
+    .feedback2 .form .submit_btn,
+    .feedback2 .medical_link
+    {
+        font-size: 18px;
+
+        width: 100%;
+    }
+
+    .feedback2 .medical_link
+    {
+        margin-top: 10px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .article .data
+    {
+        width: 65%;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data
+    {
+        margin-bottom: 60px;
+        margin-left: 0;
+    }
+
+
+    .contacts_info .data > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .contacts_info .item .icon img
+    {
+        width: 120px;
+    }
+
+
+    .contacts_info .map
+    {
+        height: 300px;
+        margin-top: 40px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .video iframe
+    {
+        height: 320px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages
+    {
+        padding: 60px 0;
+
+        border-bottom-right-radius: 120px;
+    }
+
+
+    .advantages .row
+    {
+        margin-left: 0;
+    }
+
+
+    .advantages .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .advantages .item .icon
+    {
+        width: 108px;
+        height: 108px;
+        padding: 24px;
+    }
+
+
+
+    /*-----------------
+        Video block
+    -----------------*/
+    .video_block .video
+    {
+        padding: 0;
+    }
+
+
+    .video_block .video:before
+    {
+        display: none;
+    }
+
+
+    .video_block .video iframe
+    {
+        height: 320px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .title
+    {
+        margin-bottom: 20px;
+    }
+}

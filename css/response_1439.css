@@ -1,0 +1,189 @@
+@media print,
+(max-width: 1439px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .block
+    {
+        margin-bottom: 68px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .cont
+    {
+        height: 160px;
+    }
+
+
+    header .logo img
+    {
+        height: 140px;
+    }
+
+
+
+    /*-------------------
+        Page head img
+    -------------------*/
+    .page_head_img
+    {
+        height: 400px;
+    }
+
+
+
+    /*----------
+        Menu
+    ----------*/
+    .menu .data
+    {
+        width: 640px;
+        height: 640px;
+        padding-top: 80px;
+    }
+
+
+    .menu .items
+    {
+        font-size: 30px;
+    }
+
+
+
+    /*---------------
+        Feedback2
+    ---------------*/
+    .feedback2 .logo
+    {
+        width: 480px;
+        height: 480px;
+        margin-right: -80px;
+    }
+
+
+    .feedback2 .data
+    {
+        width: calc(100% - 400px);
+        padding: 40px 40px 40px 120px;
+    }
+
+
+    .feedback2 .medical_link
+    {
+        font-size: 18px;
+
+        padding: 9px 5px 10px;
+    }
+
+
+    .feedback2 .medical_link .icon
+    {
+        display: none;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .article .data
+    {
+        width: 65%;
+        padding: 28px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .item .icon
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .contacts_info .item .icon img
+    {
+        width: 148px;
+    }
+
+
+    .contacts_info .feedback,
+    .contacts_info .map
+    {
+        width: calc(50% - 24px);
+    }
+
+
+
+    /*-----------------
+        Info slider
+    -----------------*/
+    .info_slider .swiper
+    {
+        width: 72%;
+    }
+
+
+
+    /*-----------------------
+        Small info slider
+    -----------------------*/
+    .small_info_slider .swiper
+    {
+        width: 68%;
+    }
+
+
+
+    /*-----------------
+        Video block
+    -----------------*/
+    .video_block .video
+    {
+        width: 1000px;
+        padding: 0 120px 80px;
+    }
+
+
+    .video_block .video:before
+    {
+        height: 440px;
+
+        border-radius: 0 0 160px 160px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 68px 0;
+    }
+
+
+    footer .links
+    {
+        width: 246px;
+    }
+
+
+    footer .links.big
+    {
+        width: calc(100% - 652px);
+    }
+
+
+    footer .contacts
+    {
+        width: 246px;
+    }
+}
